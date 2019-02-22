@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".35"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="ID"
+            android:id="@+id/id_text"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/name_text"
+        android:text="Name"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/Date_text"
+        android:textColor="@android:color/black"
+        android:text="Date"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="number"
+        android:layout_weight="1"
+        android:id="@+id/editname"
+        android:hint="please enter the new name"
+        android:gravity="center"
+
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/stop_button"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_light"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:onClick="edit_robo"
+            android:text="Submit"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

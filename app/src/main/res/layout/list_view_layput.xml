@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight=".35"
+            android:layout_margin="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:id="@+id/textViewidlistView_layout"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="1.5"
+            android:layout_margin="15dp"
+
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:id="@+id/textViewnamelistView_layout" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:id="@+id/textViewDatelistView_layout"/>
+
+
+
+
+</LinearLayout>
